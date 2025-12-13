@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Kevin/Documents/game-projects/BlockBreaker/Packages/manifest.json
+    m_FilePath: /home/kevin/Documents/game-projects/BlockBreaker/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638484508949363084
-    m_Hash: 265004651
+      ticks: 638984906610000000
+    m_Hash: 319978739
   m_LockFileStatus:
-    m_FilePath: C:/Users/Kevin/Documents/game-projects/BlockBreaker/Packages/packages-lock.json
+    m_FilePath: /home/kevin/Documents/game-projects/BlockBreaker/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638484509220516868
-    m_Hash: 1574087469
+      ticks: 638984906670000000
+    m_Hash: 356963307
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/Kevin/Documents/game-projects/BlockBreaker/Packages
-m_EditorVersion: 2022.3.2f1 (d74737c6db50)
+m_ProjectPath: /home/kevin/Documents/game-projects/BlockBreaker/Packages
+m_EditorVersion: 2022.3.62f3 (96770f904ca7)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.2d.sprite@1.0.0
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -80,12 +80,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.2d.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.2d.tilemap@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.2d.tilemap@1.0.0
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -153,12 +154,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ads@4.4.2
   testable: 0
   isDirectDependency: 1
   version: 4.4.2
   source: 1
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.ads@4.4.2
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.ads@4.4.2
   assetPath: Packages/com.unity.ads
   name: com.unity.ads
   displayName: Advertisement Legacy
@@ -182,7 +184,7 @@ m_ResolvedPackages:
     - 4.4.2
     compatible:
     - 4.4.2
-    recommended: 4.4.2
+    recommended: 
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -218,17 +220,18 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 4.4.2
     nextVersion: 
-    recommendedVersion: 
+    recommendedVersion: 4.16.3
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ai.navigation@1.1.3
+  fingerprint: 
+- packageId: com.unity.ai.navigation@1.1.6
   testable: 0
   isDirectDependency: 1
-  version: 1.1.3
+  version: 1.1.6
   source: 1
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.ai.navigation@1.1.3
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.ai.navigation@1.1.6
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -244,10 +247,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.1.3
+    - 1.1.6
     compatible:
-    - 1.1.3
-    recommended: 1.1.3
+    - 1.1.6
+    recommended: 1.1.6
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -255,7 +258,25 @@ m_ResolvedPackages:
   resolvedDependencies:
   - name: com.unity.modules.ai
     version: 1.0.0
-  keywords: []
+  keywords:
+  - carving
+  - mesh
+  - navigation
+  - navmesh
+  - NavMesh
+  - navmesh agent
+  - navmesh link
+  - navmeshlink
+  - navmesh modifier
+  - navmeshmodifier
+  - navmesh modifier volume
+  - navmeshmodifiervolume
+  - navmesh obstacle
+  - navmesh surface
+  - navmeshsurface
+  - offmesh link
+  - off-mesh link
+  - pathfinding
   registry:
     id: main
     name: 
@@ -272,22 +293,23 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: 21cc07be635247d730f8d1ef7c1987e222159a45
+    revision: f6af42e7acca43eff2b426b1afd4925248486b1d
     path: 
   unityLifecycle:
-    version: 1.1.3
+    version: 1.1.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.analytics@3.8.1
   testable: 0
   isDirectDependency: 1
   version: 3.8.1
   source: 1
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.analytics@3.8.1
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.analytics@3.8.1
   assetPath: Packages/com.unity.analytics
   name: com.unity.analytics
   displayName: Analytics Library
@@ -315,15 +337,17 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.services.analytics
-    version: 4.4.0
+    version: 6.0.3
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.services.core
-    version: 1.9.0
+    version: 1.14.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -359,12 +383,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.collab-proxy@2.0.4
+  fingerprint: 
+- packageId: com.unity.collab-proxy@2.7.1
   testable: 0
   isDirectDependency: 1
-  version: 2.0.4
+  version: 2.7.1
   source: 1
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.collab-proxy@2.0.4
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.collab-proxy@2.7.1
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -376,15 +401,15 @@ m_ResolvedPackages:
   type: 
   description: The package gives you the ability to use Unity Version Control in
     the Unity editor. To use Unity Version Control, a subscription is required. Learn
-    more about how you can get started for free by visiting plasticscm.com.
+    more about how you can get started for free by visiting https://unity.com/solutions/version-control
   status: 0
   errors: []
   versions:
     all:
-    - 2.0.4
+    - 2.7.1
     compatible:
-    - 2.0.4
-    recommended: 2.0.4
+    - 2.7.1
+    recommended: 2.7.1
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -403,6 +428,7 @@ m_ResolvedPackages:
   - teams
   - version
   - vcs
+  - uvcs
   registry:
     id: main
     name: 
@@ -414,27 +440,28 @@ m_ResolvedPackages:
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: dc15ef2ed609e8c19d0525a46c5bf7dd78df8432
+    revision: cf9c21f84be18cbe2d6a93ec7cfbeb01b4310bbe
     path: 
   unityLifecycle:
-    version: 2.0.4
+    version: 2.7.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.21
+  fingerprint: 
+- packageId: com.unity.ide.rider@3.0.36
   testable: 0
   isDirectDependency: 1
-  version: 3.0.21
+  version: 3.0.36
   source: 1
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.ide.rider@3.0.21
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.ide.rider@3.0.36
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -451,10 +478,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 3.0.21
+    - 3.0.36
     compatible:
-    - 3.0.21
-    recommended: 3.0.21
+    - 3.0.36
+    recommended: 3.0.36
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -479,22 +506,23 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: bb7732dcafe867368246b7661dda05368b74dd8e
+    revision: b5315083ab3861d21f6ab2ed0d9514daf04bf208
     path: 
   unityLifecycle:
-    version: 3.0.21
+    version: 3.0.36
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.visualstudio@2.0.18
+  fingerprint: 
+- packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 1
-  version: 2.0.18
+  version: 2.0.22
   source: 1
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.ide.visualstudio@2.0.22
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -511,10 +539,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 2.0.18
+    - 2.0.22
     compatible:
-    - 2.0.18
-    recommended: 2.0.18
+    - 2.0.22
+    recommended: 2.0.22
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -545,22 +573,23 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 9d3c07127cbe1916b8abbfd18f71fb8d9df8008c
+    revision: 700b44077345e97d37d464ff25507638983aed64
     path: 
   unityLifecycle:
-    version: 2.0.18
+    version: 2.0.22
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -611,12 +640,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.purchasing@4.8.0
+  fingerprint: 
+- packageId: com.unity.purchasing@4.11.0
   testable: 0
   isDirectDependency: 1
-  version: 4.8.0
+  version: 4.11.0
   source: 1
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.purchasing@4.8.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.purchasing@4.11.0
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
   displayName: In App Purchasing
@@ -648,15 +678,13 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 4.8.0
+    - 4.11.0
     compatible:
-    - 4.8.0
-    recommended: 4.8.0
+    - 4.11.0
+    recommended: 
     deprecated: []
   dependencies:
   - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.unityanalytics
     version: 1.0.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -665,7 +693,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.services.core
-    version: 1.8.1
+    version: 1.8.2
   resolvedDependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -673,8 +701,6 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.modules.unityanalytics
-    version: 1.0.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -682,7 +708,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.services.core
-    version: 1.9.0
+    version: 1.14.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.2.1
   keywords:
@@ -700,27 +726,28 @@ m_ResolvedPackages:
   hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.purchasing@4.8/manual/index.html
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.purchasing@4.11/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.purchasing.git
-    revision: 764a3bd5b373bbdb7bbd3a87a2b260204d2b1365
+    revision: d048512094268963253b336dd8eba44548759d38
     path: 
   unityLifecycle:
-    version: 4.8.0
+    version: 4.11.0
     nextVersion: 
-    recommendedVersion: 
+    recommendedVersion: 5.0.0
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.test-framework@1.1.33
   testable: 0
   isDirectDependency: 1
   version: 1.1.33
   source: 1
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.test-framework@1.1.33
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -783,12 +810,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.textmeshpro@3.0.6
+  fingerprint: 
+- packageId: com.unity.textmeshpro@3.0.7
   testable: 0
   isDirectDependency: 1
-  version: 3.0.6
+  version: 3.0.7
   source: 1
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.textmeshpro@3.0.7
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -822,10 +850,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 3.0.6
+    - 3.0.7
     compatible:
-    - 3.0.6
-    recommended: 3.0.6
+    - 3.0.7
+    recommended: 3.0.7
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -854,27 +882,28 @@ m_ResolvedPackages:
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
-  documentationUrl: 
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.textmeshpro@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
+    revision: 5c364f204e10eaec84fcbff640ad4d833774c1ed
     path: 
   unityLifecycle:
-    version: 3.0.6
+    version: 3.0.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.timeline@1.7.4
+  fingerprint: 
+- packageId: com.unity.timeline@1.7.7
   testable: 0
   isDirectDependency: 1
-  version: 1.7.4
+  version: 1.7.7
   source: 1
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.timeline@1.7.4
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.timeline@1.7.7
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -890,10 +919,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.7.4
+    - 1.7.7
     compatible:
-    - 1.7.4
-    recommended: 1.7.4
+    - 1.7.7
+    recommended: 1.7.7
     deprecated: []
   dependencies:
   - name: com.unity.modules.director
@@ -935,22 +964,23 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 1f458a5d3f2bc66f0c1182feeaa9fcea4e8b1496
+    revision: 36c3480685dcb744f098f1a1efe0623247ffab49
     path: 
   unityLifecycle:
-    version: 1.7.4
+    version: 1.7.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1014,12 +1044,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.legacyinputhelpers@2.1.10
+  fingerprint: 
+- packageId: com.unity.xr.legacyinputhelpers@2.1.12
   testable: 0
   isDirectDependency: 1
-  version: 2.1.10
+  version: 2.1.12
   source: 1
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.xr.legacyinputhelpers@2.1.12
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -1039,10 +1070,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 2.1.10
+    - 2.1.12
     compatible:
-    - 2.1.10
-    recommended: 2.1.10
+    - 2.1.12
+    recommended: 2.1.12
     deprecated: []
   dependencies:
   - name: com.unity.modules.vr
@@ -1077,27 +1108,28 @@ m_ResolvedPackages:
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
-  documentationUrl: 
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.legacyinputhelpers@2.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
-    revision: 465ee12451634ea2b2986d54f6ae8be37316772a
+    revision: 7750ba101d791f0c673ae87cd654d1ac84f87f24
     path: 
   unityLifecycle:
-    version: 2.1.10
+    version: 2.1.12
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1147,12 +1179,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1201,12 +1234,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1256,12 +1290,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1311,12 +1346,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1366,12 +1402,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1425,12 +1462,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1488,12 +1526,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1544,12 +1583,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1599,12 +1639,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1654,12 +1695,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1709,12 +1751,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1764,12 +1807,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1819,12 +1863,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1878,12 +1923,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1933,12 +1979,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1996,12 +2043,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2054,12 +2102,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2109,12 +2158,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2176,12 +2226,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2231,12 +2282,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2294,12 +2346,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2349,12 +2402,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2412,12 +2466,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2475,12 +2530,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2538,12 +2594,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2617,12 +2674,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2676,12 +2734,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2743,12 +2802,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2812,12 +2872,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2867,12 +2928,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2934,12 +2996,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -2993,12 +3056,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3051,12 +3115,13 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.services.core@1.9.0
+  fingerprint: 
+- packageId: com.unity.services.core@1.14.0
   testable: 0
   isDirectDependency: 0
-  version: 1.9.0
+  version: 1.14.0
   source: 1
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.services.core@1.9.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.services.core@1.14.0
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -3075,10 +3140,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.9.0
+    - 1.14.0
     compatible:
-    - 1.9.0
-    recommended: 1.9.0
+    - 1.14.0
+    recommended: 
     deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
@@ -3106,27 +3171,28 @@ m_ResolvedPackages:
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.9/manual/index.html
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.14/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 74c057b799d7949f52649be6b1e69b7e251beda1
+    revision: 64962022211031c9e26ceec024d3587ea8e05a17
     path: 
   unityLifecycle:
-    version: 1.9.0
+    version: 1.14.0
     nextVersion: 
-    recommendedVersion: 
+    recommendedVersion: 1.15.1
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.services.analytics@4.4.0
+  fingerprint: 
+- packageId: com.unity.services.analytics@6.0.3
   testable: 0
   isDirectDependency: 0
-  version: 4.4.0
+  version: 6.0.3
   source: 1
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.services.analytics@4.4.0
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.services.analytics@6.0.3
   assetPath: Packages/com.unity.services.analytics
   name: com.unity.services.analytics
   displayName: Analytics
@@ -3146,18 +3212,18 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 4.4.0
+    - 6.0.3
     compatible:
-    - 4.4.0
-    recommended: 4.4.0
+    - 6.0.3
+    recommended: 
     deprecated: []
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.services.core
-    version: 1.8.1
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
+    version: 1.12.4
   resolvedDependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -3165,8 +3231,10 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.services.core
-    version: 1.9.0
+    version: 1.14.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -3185,27 +3253,28 @@ m_ResolvedPackages:
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.analytics@4.4/manual/index.html
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.analytics@6.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 5db3aa3dee060f5a0e7a2730049651a66a7fafbe
+    revision: d230200c331e8d1ebc6a050557bd1ae58d01e0fc
     path: 
   unityLifecycle:
-    version: 4.4.0
+    version: 6.0.3
     nextVersion: 
-    recommendedVersion: 
+    recommendedVersion: 6.1.0
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.nuget.newtonsoft-json@3.2.1
   testable: 0
   isDirectDependency: 0
   version: 3.2.1
   source: 1
-  resolvedPath: C:\Users\Kevin\Documents\game-projects\BlockBreaker\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1
+  resolvedPath: /home/kevin/Documents/game-projects/BlockBreaker/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -3263,3 +3332,5 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  fingerprint: 
+m_BuiltInPackagesHash: 7aaaadd84930f4e091139b17551ff9d19a0f0b6c
